@@ -122,7 +122,7 @@ int _cdecl wmain() {
         }
 
         // mute it
-        hr = pAudioEndpointVolume->SetMute(FALSE, nullptr);			///FALSE-unmuted
+        hr = pAudioEndpointVolume->SetMute(FALSE, nullptr);			///FALSE-unmuted!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         if (FAILED(hr)) {
             LOG(L"IAudioEndpointVolume(%u)::SetMute failed: hr = 0x%08x", i, hr);
             continue;
